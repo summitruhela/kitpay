@@ -1,0 +1,188 @@
+{
+  "contractName": "HelloWorld",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "balance",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50609e8061001e6000396000f300608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063b69ef8a8146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b600054815600a165627a7a72305820d8683caa145133e91ea631ecb90c0900b8ae0fa85475cb236f7fa972957738bd0029",
+  "deployedBytecode": "0x608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063b69ef8a8146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b600054815600a165627a7a72305820d8683caa145133e91ea631ecb90c0900b8ae0fa85475cb236f7fa972957738bd0029",
+  "sourceMap": "56:632:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;56:632:1;;;;;;;",
+  "deployedSourceMap": "56:632:1:-;;;;;;;;;;;;;;;;;;;;;;;;77:19;;8:9:-1;5:2;;;30:1;27;20:12;5:2;77:19:1;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.4;\nimport \"./HelloWorld.sol\";\n\n\n\n\n\ncontract HelloWorld{\nuint public balance;\n // address public owner\n// mapping (address => uint) balance \n\n    //constructor\n    //runs once upon contract creation\n\n\n // Function HelloWorld(){\n   //  owner = msg.sender;\n// balance =1000;\n  //  }\n\n    // function transfer(address _to , unit _value) returns (bool success){\n        //  if(balance[msg.sender] < _value){\n            //  return false\n       //  } \n         // balance [msg.sender] -= _value;\n    // balance[_to] += _value;\n    // return true;\n    //  }\n   // function getBalance(address _user) constant returns (uint balance){\n      //  return balance[_user];\n   // }\n}",
+  "sourcePath": "/Users/anujdubey/Desktop/Kitpay/19 aug/kitpay-18073292-html/MetaCoin/contracts/HelloWorld.sol",
+  "ast": {
+    "absolutePath": "/Users/anujdubey/Desktop/Kitpay/19 aug/kitpay-18073292-html/MetaCoin/contracts/HelloWorld.sol",
+    "exportedSymbols": {
+      "HelloWorld": [
+        22
+      ]
+    },
+    "id": 23,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 18,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "absolutePath": "/Users/anujdubey/Desktop/Kitpay/19 aug/kitpay-18073292-html/MetaCoin/contracts/HelloWorld.sol",
+        "file": "./HelloWorld.sol",
+        "id": 19,
+        "nodeType": "ImportDirective",
+        "scope": 23,
+        "sourceUnit": 23,
+        "src": "24:26:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 22,
+        "linearizedBaseContracts": [
+          22
+        ],
+        "name": "HelloWorld",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 21,
+            "name": "balance",
+            "nodeType": "VariableDeclaration",
+            "scope": 22,
+            "src": "77:19:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 20,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "77:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 23,
+        "src": "56:632:1"
+      }
+    ],
+    "src": "0:688:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/anujdubey/Desktop/Kitpay/19 aug/kitpay-18073292-html/MetaCoin/contracts/HelloWorld.sol",
+    "exportedSymbols": {
+      "HelloWorld": [
+        22
+      ]
+    },
+    "id": 23,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 18,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "absolutePath": "/Users/anujdubey/Desktop/Kitpay/19 aug/kitpay-18073292-html/MetaCoin/contracts/HelloWorld.sol",
+        "file": "./HelloWorld.sol",
+        "id": 19,
+        "nodeType": "ImportDirective",
+        "scope": 23,
+        "sourceUnit": 23,
+        "src": "24:26:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 22,
+        "linearizedBaseContracts": [
+          22
+        ],
+        "name": "HelloWorld",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 21,
+            "name": "balance",
+            "nodeType": "VariableDeclaration",
+            "scope": 22,
+            "src": "77:19:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 20,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "77:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 23,
+        "src": "56:632:1"
+      }
+    ],
+    "src": "0:688:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-08-21T05:58:51.970Z"
+}
